@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+ 
+int main()
+{int n,x;
+cin>>n>>x;
+int a[n];
+for(int i=0;i<n;i++)
+cin>>a[i];
+    int i;
+    for (i = 0; i < n; i++)
+        if (a[i] == x)
+            return i;
+    return -1;
+}
+ 
